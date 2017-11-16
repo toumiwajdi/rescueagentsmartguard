@@ -10,6 +10,15 @@
     android:background="@drawable/backgroundam">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="55px"
+        android:textColor="#f16f71"
+        android:text="You Just Start a mission"
+        android:padding="15px"
+        />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -17,17 +26,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/intervention"/>
+        android:id="@+id/intervention"
+        android:textSize="35px"
+        android:text="Mission ID : "
+        android:padding="15px"
+        android:textColor="#f9d7db"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f9d7db" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/doctorname"
+        android:textSize="35px"
+        android:textColor="#f9d7db"
+        android:padding="15px"
         />
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="0dp"
         android:background="#f9d7db" />
-
 
 
 </LinearLayout>

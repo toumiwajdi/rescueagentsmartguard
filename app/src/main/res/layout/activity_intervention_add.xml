@@ -9,14 +9,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/backgroundam">
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital : "
+        android:id="@+id/hospitalt"
+        android:textColor="#f9d7db"
+        android:padding="15px"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service : "
+        android:id="@+id/servicet"
+        android:textColor="#f9d7db"
+        android:padding="15px"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#f9d7db" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/finish"
         style="@style/TextAppearance.AppCompat.Body1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
